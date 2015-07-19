@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: c8508c127734ce2b3dcc629fd28bfec7)
+version = "0.0.0"
+description = "Bare essential additions to the stdlib"
+archive(byte) = "bear.cma"
+archive(byte, plugin) = "bear.cma"
+archive(native) = "bear.cmxa"
+archive(native, plugin) = "bear.cmxs"
+exists_if = "bear.cma"
+# OASIS_STOP
+

@@ -1,0 +1,22 @@
+OASISFormat:   0.4
+Name:          bear
+Version:       0.0.0
+Synopsis:      Bare essential additions to the stdlib
+Description:   The Bear library is meant to be a very minimal extension to the
+               OCaml stdlib.  The feel of the library is meant to stick closely
+               to the stdlib.  If functionality is available from another
+               minimal library (ex. Rresult, Sosa) then it should be out of
+               scope for Bear.
+Authors:       Hezekiah M. Carty
+Maintainers:   Hezekiah M. Carty <hez@0ok.org>
+Homepage:      https://github.com/hcarty/bear
+License:       MIT
+Plugins:       META (0.4), DevFiles (0.4)
+OCamlVersion:  >= 4.02.1
+BuildTools:    ocamlbuild
+AlphaFeatures: compiled_setup_ml
+
+Library bear
+  Path:           src/
+  Modules:        Bear, Bear_option, Bear_pervasives
+  CompiledObject: best

@@ -1,3 +1,5 @@
+(* Easy/quick printing *)
+
 let say = print_endline
 
 let warn = prerr_endline
@@ -8,7 +10,9 @@ let sayf fmt =
 let warnf fmt =
   Printf.ksprintf warn fmt
 
-(* From dbuenzli's BOS library - see copyright below *)
+external identity : 'a -> 'a = "%identity"
+
+(* apply is taken from dbuenzli's BOS library - see copyright below *)
 let apply f x ~finally y =
   let result = try f x with e -> try finally x; raise e with _ -> raise e in
   finally y;

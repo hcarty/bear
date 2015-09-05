@@ -1,6 +1,6 @@
 # OASIS_START
-# DO NOT EDIT (digest: c8508c127734ce2b3dcc629fd28bfec7)
-version = "0.0.0"
+# DO NOT EDIT (digest: c476908a9ea2fd3e88ba2030ad4f3c85)
+version = "0.0.1"
 description = "Bare essential additions to the stdlib"
 archive(byte) = "bear.cma"
 archive(byte, plugin) = "bear.cma"

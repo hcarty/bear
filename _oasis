@@ -1,6 +1,6 @@
 OASISFormat:   0.4
 Name:          bear
-Version:       0.0.0
+Version:       0.0.1
 Synopsis:      Bare essential additions to the stdlib
 Description:   The Bear library is meant to be a very minimal extension to the
                OCaml stdlib.  The feel of the library is meant to stick closely
